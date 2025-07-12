@@ -298,6 +298,7 @@ textarea{
     border: none;
     text-align: left;
     width: 100%;
+    resize: none;
 }
 
 .in_form input[type="submit"]{
