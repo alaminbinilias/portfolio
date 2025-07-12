@@ -98,6 +98,11 @@ header{
     font-weight: bold;
     margin-right: 2px;
 }
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .mn_conten .contact{
     color:#FD6E0A;
     background-color: #FFF8F3;
@@ -105,11 +110,10 @@ header{
 }
 .about_me{
     background-color: #FFF8F3;
-    max-width: 1140px;
-    margin: 0 auto;
-    margin: 130px 540px;
+    margin-top: 130px;
     padding: 130px 156px;
     border-radius: 10px;
+    margin-bottom: 130px;
 }
 
 .content{
@@ -144,4 +148,162 @@ header{
 .item_desc{
     font-weight: bold;
     font-size: 20px;
+}
+
+.skill_section{
+    margin: 0 auto;
+}
+
+.skill_card{
+    display: flex;
+    justify-content: space-between;
+}
+
+skill_exp{
+    margin-bottom: 50px;
+}
+.skill_get{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.skill_desc{
+    text-align: center;
+    font-size: 18px;
+    color: #757575;
+}
+
+.skill{
+    max-width: 267px;
+    box-shadow: 0px 6px 50px 0px #d6d4d4;
+    margin-right: 20px;
+    background-color: FFFFFF;
+    border-radius: 5px;
+}
+.skill_img{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.skill_desc{
+    margin:30px;
+}
+.skill h3{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+.skill p{
+    text-align: left;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.resume_container{
+    display: flex;
+    gap: 24px;
+}
+
+.resume h3{
+    margin-top: 130px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+.resume_column_title h3{
+    text-align:left;
+    color: #474747;
+}
+
+.exp_title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+.exp_sub_title{
+    color: #757575;
+    font-weight: 600px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.exp_details{
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+hr{
+    margin-bottom: 30px;
+}
+.dwnload_cv{
+    padding: 19px 17px;
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+}
+.dwn_btn{
+    display:flex ;
+    justify-content: center;
+    margin-bottom: 113px;
+}
+
+footer{
+    background-color: #FFF8F3;
+}
+.footer_section{
+    padding: 130px 230px;
+    max-width: 1140px;
+    margin:0 auto;
+    display: flex;
+    gap: 115px;
+}
+.contact p{
+    color: #474747;
+    font-size: 16px;
+    max-width: 560px;
+}
+.socia_media_logo{
+    margin-top: 30px;
+}
+.socia_media_logo img{
+    margin-right: 24px;
+}
+.in_form input[type="text"]{
+    display:block;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    border: none;
+    text-align: left;
+    height: 64px;
+    width: 100%;
+}
+.in_form input[type="email"]{
+    display:block;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    border: none;
+    text-align: left;
+    height: 64px;
+    width: 100%;
+}
+textarea{
+    display:block;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    border: none;
+    text-align: left;
+    width: 100%;
+}
+
+.in_form input[type="submit"]{
+    padding: 18px 39px;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #FD6E0A;
 }
